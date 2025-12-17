@@ -1,4 +1,5 @@
-from flask_sqlalchemy import SQLAlchemy
+# server/models.py
+from flask_sqlalchemy import SQLAlchemy # type: ignore
 from sqlalchemy import MetaData
 
 # contains definitions of tables and associated schema constructs
